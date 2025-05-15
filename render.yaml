@@ -2,7 +2,7 @@ services:
   - type: web
     name: RUMAD-Bot Dev
     env: python
-    branch: main
+    branch: dev
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
     autoDeploy: true
