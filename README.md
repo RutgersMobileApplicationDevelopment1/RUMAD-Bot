@@ -10,3 +10,14 @@
 2. Prepare the virtual environment: `bot-env\Scripts\activate.bat`
 3. Activate the virtual environment: `bot-env\Scripts\Activate.ps1`
 4. Use pip like usual: `pip install -r requirements.txt`
+
+ ## Making changes
+
+Create a branch from the dev branch, then create and switch to a branch to create changes from.
+
+```
+git checkout dev
+git checkout -b feature/{your_feature_name}
+```
+
+After finishing changes, create a pull request (PR) to the dev branch
